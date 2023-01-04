@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(black, rgb(46, 46, 46));
+  }
+  .container {
+    box-shadow: 0 0 30px rgb(129, 129, 129);
+    animation: background1 linear 30s infinite alternate-reverse;
+    border-radius: 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 80vh;
+    min-height: 600px;
+    max-width: 35vw;
+    min-width: 500px;
+    color: wheat;
+    text-align: center;
+    font-size: 50px;
+    transition: 1s;
+  }
+  .container:hover {
+    scale: 1.02;
+  }
+  @keyframes background1 {
+    0% {
+      background-color: rgb(146, 0, 0);
+    }
+    25% {
+      background-color: rgb(0, 118, 14);
+    }
+    50% {
+      background-color: rgb(0, 45, 97);
+    }
+    75% {
+      background-color: rgb(82, 0, 67);
+    }
+    100% {
+      background-color: rgb(0, 91, 79);
+    }
+  }
+  h1 {
+    padding: 30px 20px;
+  }
+  #buttons {
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  .button {
+    height: 50px;
+    border-radius: 50px;
+    width: 120px;
+    margin: 20px;
+    font-size: 20px;
+    transition: 0.4s;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .save {
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 0;
+    transition: 0.4s;
+  }
+  .reset {
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 0;
+    transition: 0.4s;
+  }
+  .button:hover {
+    scale: 1.05;
+  }
+  .button:focus {
+    background-color: rgb(27, 27, 27);
+    color: white;
+  }
+  .increment:hover {
+    background-color: rgb(68, 214, 39);
+  }
+  .remove:hover {
+    background-color: rgb(226, 21, 21);
+  }
+  .save:hover {
+    background-color: rgb(59, 59, 255);
+    color: white;
+    transform: rotate(3deg);
+  }
+  .reset:hover {
+    background-color: rgb(216, 84, 183);
+    color: white;
+    transform: rotate(3deg);
+  }
+  p {
+    margin: 0;
+  }
+  .counter {
+    border: 3px solid black;
+    margin: 20px 190px;
+    background-color: wheat;
+    color: black;
+    border-radius: 40px;
+  }
+  .totaldiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  #saved {
+    font-size: 25px;
+    padding: 10px;
+  }
