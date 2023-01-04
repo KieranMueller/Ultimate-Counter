@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    height: 2000px;
     background-image: linear-gradient(black, rgb(46, 46, 46));
   }
   .container {
@@ -10,10 +10,10 @@ html {
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 80vh;
-    min-height: 600px;
-    max-width: 35vw;
-    min-width: 500px;
+    min-height:600px;
+    max-height: 700px;
+    min-width:500px;
+    max-width:600px;
     color: wheat;
     text-align: center;
     font-size: 50px;
